@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+
+    <title>HTML first assignment</title>
+  </head>
+
+  <body>
+    <div class="topnav" id="myTopnav">
+      <div class="logo">
+        <a class="logo" href="#">LOGO HERE</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <span class="material-symbols-outlined"> more_horiz </span>
+      </a>
+      <a href="#home">ABOUT US</a>
+      <a href="#blogs">BLOGS</a>
+      <a href="#about"> HOME</a>
+    </div>
+
+    <div class="hero">
+      <img
+        src="./table.jpg"
+        alt="placeholder 960"
+        class="img-responsive"
+        width="100%"
+      />
+    </div>
+
+    <h1>OUR SERVICES</h1>
+
+    <div class="row">
+      <div class="col">
+        <h3>TITLE HERE</h3>
+        <p>Lorem ipsum dolor sit amet, 
+          consectetur adipiscing elit, 
+          sed do eiusmod tempor 
+          incididunt ut 
+          labore et dolore magna aliqua. 
+          Ut enim ad minim veniam</p>
+          <button class="button">LEARN MORE</button>
+      </div>
+      <div class="col">
+        <h3>TITLE HERE</h3>
+        <p>Lorem ipsum dolor sit amet, 
+          consectetur adipiscing elit, 
+          sed do eiusmod tempor 
+          incididunt ut 
+          labore et dolore magna aliqua. 
+          Ut enim ad minim veniam</p>
+          <button class="button">LEARN MORE</button>
+
+      </div>
+      <div class="col">
+        <h3>TITLE HERE</h3>
+        <p>Lorem ipsum dolor sit amet, 
+          consectetur adipiscing elit, 
+          sed do eiusmod tempor 
+          incididunt ut 
+          labore et dolore magna aliqua. 
+          Ut enim ad minim veniam</p>
+          <button class="button">LEARN MORE</button>
+      </div>
+    </div class="">
+    <footer class="footer">
+      <div class="social-icons">
+        <span>fa</span>
+        <span>in</span>
+        <span>tw</span>
+      </div>
+      <div class="copyright">
+        @Copyright 2022
+      </div>
+    </footer>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>
